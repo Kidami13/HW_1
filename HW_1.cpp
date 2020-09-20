@@ -6,15 +6,16 @@
 using namespace std;
 int main()
 {
-	char a;
-	char b;
-	char c;
-	char d;
+	int a;
+	int b;
+	int c;
+	int d;
 	cin >> a;
 	cin >> b;
 	cin >> c;
 	cin >> d;
-	cout << a << b << c << d;
+	cout << a + b + c + d;
+	
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
